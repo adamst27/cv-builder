@@ -1,0 +1,46 @@
+main {
+  padding: 8rem;
+  text-align: center;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 12px;
+  line-height: 1.5;
+  position: relative;
+}
+main h1 {
+  font-size: 3rem;
+  color: hsl(254, 100%, 50%);
+  font-weight: bold;
+}
+main p {
+  font-size: 1.5rem;
+  color: hsl(60, 18%, 14%);
+}
+.bg-pattern {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  background-image: linear-gradient(to right, #f0f0f0 1px, transparent 1px),
+    linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+  background-size: 6rem 4rem;
+}
+
+.bg-radial-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-image: radial-gradient(100% 80%, #d5c5ff, transparent);
+}
+main .buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}

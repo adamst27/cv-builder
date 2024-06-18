@@ -1,0 +1,137 @@
+:root {
+  --main: hsl(254, 100%, 50%);
+  --second: hsl(60, 18%, 14%);
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--second);
+}
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f5f1ff;
+  color: var(--second);
+}
+section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: var(--main);
+}
+.cv-container .social div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.cv-container .social h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--second);
+}
+.cv-container .social div .social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.cv-container .social div p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.cv-container .social div p::after {
+  content: "|";
+}
+.cv-container .summary {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+
+.cv-container .summary p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.cv-container .experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+
+.cv-container .experiences h3 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--second);
+}
+.cv-container .experiences p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.cv-container .education {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+.cv-container .education h3 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--second);
+}
+.main-heading {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--second);
+  text-align: left;
+}
+.cv-container .projects {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+.cv-container .projects h3 {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--second);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cv-container .projects p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.cv-container .projects .project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.cv-container .skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
+.cv-container .skills p span:first-child {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--second);
+}
